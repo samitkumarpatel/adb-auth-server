@@ -26,6 +26,7 @@ steps:
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
+    goals: 'package deploy'
     options: '-B -e $(MAVEN_OPTS)'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
