@@ -13,6 +13,19 @@
 	<name>adb-auth-server</name>
 	<description>adb-auth-server</description>
 
+	<repositories>
+		<repository>
+			<id>samitkumarpatel</id>
+			<url>https://pkgs.dev.azure.com/samitkumarpatel/_packaging/samitkumarpatel/maven/v1</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
