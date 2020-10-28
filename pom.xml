@@ -15,8 +15,8 @@
 
 	<repositories>
 		<repository>
-			<id>samitkumarpatel</id>
-			<url>https://pkgs.dev.azure.com/samitkumarpatel/_packaging/samitkumarpatel/maven/v1</url>
+			<id>adb</id>
+                        <url>https://pkgs.dev.azure.com/samitkumarpatel/samitkumarpatel/_packaging/adb/maven/v1</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
